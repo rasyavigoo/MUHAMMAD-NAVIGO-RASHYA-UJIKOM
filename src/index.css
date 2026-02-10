@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@layer base {
+    :root {
+        --brand-primary: #2563eb;
+        --brand-dark: #0f172a;
+        --brand-accent: #f59e0b;
+        --glass: rgba(255, 255, 255, 0.7);
+        --glass-dark: rgba(15, 23, 42, 0.8);
+    }
+
+    body {
+        @apply bg-slate-50 text-slate-900 font-sans antialiased;
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-bold tracking-tight text-slate-900;
+        font-family: 'Outfit', sans-serif;
+    }
+}
+
+@layer utilities {
+    .glass-effect {
+        @apply backdrop-blur-xl border border-white/20;
+        background: var(--glass);
+    }
+
+    .glass-dark {
+        @apply backdrop-blur-xl border border-slate-700/30;
+        background: var(--glass-dark);
+    }
+
+    .text-gradient {
+        @apply bg-clip-text text-transparent bg-linear-to-r from-blue-600 to-indigo-600;
+    }
+
+    .btn-premium {
+        @apply px-8 py-4 rounded-2xl font-bold transition-all duration-300 active:scale-95 shadow-lg flex items-center gap-3;
+    }
+
+    .animate-float {
+        animation: float 6s ease-in-out infinite;
+    }
+
+    @keyframes float {
+        0% {
+            transform: translateY(0px);
+        }
+
+        50% {
+            transform: translateY(-20px);
+        }
+
+        100% {
+            transform: translateY(0px);
+        }
+    }
+
+    .animate-shimmer {
+        background: linear-gradient(90deg,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 0.2) 50%,
+                rgba(255, 255, 255, 0) 100%);
+        background-size: 200% 100%;
+        animation: shimmer 2s infinite;
+    }
+
+    @keyframes shimmer {
+        0% {
+            background-position: -200% 0;
+        }
+
+        100% {
+            background-position: 200% 0;
+        }
+    }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-slate-100;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-slate-300 rounded-full hover:bg-slate-400 transition-colors;
+}

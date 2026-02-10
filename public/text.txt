@@ -1,0 +1,28 @@
+Homepage.jsx
+--------------
+teknologi adalah proses kreatif yang mengubah cara kita hidup, bekerja, dan berinteraksi. Ia terus berkembang, mendorong terobosan baru, dan membuka peluang tanpa batas bagi masa depan.
+
+Selamat datang di Event! Acara ini adalah pertemuan para inovator, pengembang, dan pemimpin industri yang memiliki satu visi: membangun masa depan digital yang lebih cerah. Selama dua hari penuh, Anda akan berkesempatan untuk belajar langsung dari para ahli, berpartisipasi dalam sesi workshop interaktif, dan memperluas jaringan dengan sesama profesional.
+
+https://forms.gle/AqS7soDpiwptLxKz6
+
+Tentangpage.jsx
+----------------
+
+Seperti yang kita ketahui era digital bergerak sangat cepat, kebutuhan akan inovasi dan adaptasi menjadi semakin penting. Banyak individu dan perusahaan kesulitan mengikuti laju perubahan teknologi yang konstan, sehingga berisiko tertinggal. Seminar ini hadir sebagai jawaban atas tantangan tersebut. Kami melihat adanya kesenjangan antara potensi teknologi dan pemanfaatannya di berbagai sektor. Oleh karena itu, kami berinisiatif menciptakan sebuah wadah di mana pengetahuan, pengalaman, dan ide-ide inovatif dapat dibagikan secara terbuka dan interaktif.
+
+<span className="font-bold">Menginspirasi dan Mendidik:</span> Memberikan wawasan terbaru tentang tren teknologi yang sedang berkembang, serta menginspirasi peserta untuk berpikir kreatif dan berani mengambil langkah inovatif.
+
+<span className="font-bold">Membangun Jaringan:</span> Menciptakan ruang bagi para profesional, pengembang, dan visioner untuk berinteraksi, berkolaborasi, dan membangun hubungan yang saling menguntungkan.
+
+<span className="font-bold">Mendorong Penerapan Praktis:</span> Tidak hanya berfokus pada teori, seminar ini bertujuan untuk memberikan contoh dan studi kasus nyata yang dapat diterapkan langsung dalam pekerjaan atau proyek peserta.
+
+Menjadi katalisator utama yang mendorong inovasi dan transformasi digital di Indonesia, menciptakan komunitas yang terus belajar dan berkolaborasi untuk membentuk masa depan yang lebih baik.
+
+<li className="text-base/loose">Menyelenggarakan seminar dan workshop berkualitas tinggi yang relevan dengan kebutuhan industri.</li>
+
+<li className="text-base/loose">Menghadirkan pembicara dan ahli yang kompeten dan berpengalaman di bidangnya</li>
+
+<li className="text-base/loose">Membangun platform berkelanjutan untuk pertukaran pengetahuan dan kolaborasi.</li>
+
+<li className="text-base/loose">Memberdayakan individu dan organisasi agar mampu beradaptasi dan berinovasi di tengah perubahan.</li>
